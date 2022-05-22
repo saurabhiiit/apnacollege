@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <form action="" >
-        <h1>Payment Form</h1>
+    <div class="container">
+    <form action="" method="get" >
+        <h1 class="main_heading">Payment Form</h1>
         <p>Required Fields are followed by *</p>
         <h2>Contact Information</h2>
-        <p>Name: *<input type="type" name="name" required placeholder="Ocm Pandey"></p>
+        <p>Name: *<input type="text" name="name" required placeholder="Ocm Pandey"></p>
         <fieldset>
             <legend>Gender: *</legend>
         <p>
@@ -46,6 +48,7 @@
     <p>CVV: *<input type="password" name="cvv" id="cvv" required></p>
     <input type="submit" value="Pay Now">
 
-    </form>    
+    </form>
+</div>    
 </body>
 </html>
